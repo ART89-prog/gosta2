@@ -1,0 +1,266 @@
+@media (max-width: 479px) {
+
+    .products_items {
+        margin-left: 0px;
+        margin-bottom: -15px;
+    }
+    .products_items > * {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+    .cont {
+        padding: 0 10px;
+    }
+    .header_logo {
+        width: 107px;
+    }
+    .header_logo img {
+        width: 100%;
+    }
+    .header_contact span {
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .header_contact a {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    header .cont {
+        align-items: center;
+    }
+    form button {
+        width: 100%;
+    }
+    .contacts_img {
+        display: none;
+    }
+    .contacts_img-mob {
+        display: block;    
+        margin-top: -70px;
+    }
+    .first-section_title {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    .first-section {
+        margin-top: 146px;
+        margin-bottom: 91px;
+    }
+    .title {
+        font-size: 20px;
+    }
+    .products_title {
+        margin-bottom: 11px;
+    }
+    .products_text {
+        font-size: 12px;
+        line-height: 20px;
+        text-align: start;
+    }
+    .products_filter-name {
+        font-size: 11px;
+        line-height: 16px;
+        margin-right: 0;
+    }
+    .products_items {
+        margin-top: 25px;
+    }
+    .products_item-logo {
+        margin-bottom: 5px;
+    }
+    .products_item-text {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 20px;
+    }
+    .products_items > * {
+        padding: 20px 43px;
+    }
+    .products_link {
+        width: 100%;
+        margin: 37px auto 0;
+    }
+    .products_info {
+        padding-top: 26px;
+        padding-bottom: 35px;
+    }
+    .services {
+        padding-top: 29px;
+        padding-bottom: 40px;
+    }
+    .services_text {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .services ul li {
+        font-size: 12px;
+        line-height: 20px;
+        padding-left: 25px;
+    }
+    .callback_title {
+        font-size: 20px;
+        line-height: 29px;
+        margin-bottom: 20px;
+    }
+    form input[type=checkbox]+label,
+    form input[type=checkbox]+label a {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .agree {
+        margin-top: 14px;
+    }
+    .callback {
+        padding-bottom: 59px;
+    }
+    .contacts {
+        padding-top: 23px;
+    }
+    .contacts_wrap {
+        padding: 30px 20px;
+    }
+    .contacts_item-phone {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .contacts_title {
+        margin-bottom: 32px;
+    }
+    .first-section a {
+        width: 100%;
+    }
+
+    .breadcrumbs {
+        margin-bottom: 26px;
+    }
+    .post_info {
+        padding: 23px 20px 33px;
+    }
+    .post_info-link {
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 25px;
+    }
+    .post_info-text {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .text_block h2 {
+        margin-top: 35px;
+        margin-bottom: 15px;
+        font-size: 20px;
+        line-height: 1.45;
+    }
+    .text_block p {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+    .text_block ol li {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .text_block ul li {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .text_block blockquote {
+        font-size: 12px;
+        line-height: 20px;
+        padding: 20px 18px 15px;
+    }
+    .text_block blockquote strong {
+        font-size: 12px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+    .swiper-button-next {
+        right: 10px;
+        width: 30px;
+        height: 30px;
+    }
+    .swiper-button-next img {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-button-prev {
+        left: 10px;
+        width: 30px;
+        height: 30px;
+    }
+    .swiper-button-prev img {
+        width: 100%;
+        height: 100%;
+    }
+    table {
+        margin: 45px 0;
+    }
+    table thead tr th {
+        padding: 16px 10px 16px 18px;
+        font-size: 12px;
+    }
+    table tbody tr td {
+        padding: 16px 10px 16px 18px;
+        font-size: 12px;
+    }
+    .accordion_item-title {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .text_block {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .accordion_item-data {
+        font-size: 12px;
+        line-height: 20px;
+        padding: 10px 31px;
+    }
+    .accordion_item-head {
+        padding: 10px 31px;
+    }
+    .accordion_item-icon {
+        width: 8px;
+        height: 11px;
+        left: 12px;
+        top: 9px;
+    }
+    .accordion_item.active .accordion_item-icon {
+        left: 18px;
+        top: 15px;    
+    }
+    .accordion {
+        margin-bottom: 36px;
+    }
+    .post {
+        margin-bottom: 46px;
+    }
+    .post_link {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .breadcrumbs a {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .breadcrumbs .sep {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .breadcrumbs .current {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .modal {
+        padding: 30px 0 30px;
+    }
+    .modal_text {
+        font-size: 14px;
+    }
+
+
+   
+}

@@ -1,0 +1,43 @@
+@media print, (max-width: 1023px) {
+ 
+    .callback_wrap {
+        padding: 30px;
+    }
+    form input[type=checkbox]+label br {
+        display: none;
+    }
+    .contacts_info {
+        margin-left: 20px;
+    } 
+    .contacts_wrap {
+        padding: 30px;
+    }
+    .first-section {
+        margin-top: 135px;
+        margin-bottom: 135px;
+    }
+    .title {
+        font-size: 30px;
+    }
+    .first-section_title {
+        text-align: center;
+    }
+    .first-section a {
+        margin: 0 auto;
+    }
+    .products_items > * {
+        width: calc(100%/2 - 20px);
+    }
+    .products_items > * {
+        padding: 20px;
+    }
+    form .agree {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+
+
+
+    
+}
