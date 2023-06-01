@@ -1489,6 +1489,7 @@ form .line input.wpcf7-not-valid::placeholder{
 }
 .about_items {
     width: 546px;
+    height: max-content;
     background: #F3F8FE;
     border: 0.5px solid #D9D9D9;
     border-radius: 10px;
@@ -1540,11 +1541,12 @@ form .line input.wpcf7-not-valid::placeholder{
 
 
 .advantages {
+    padding-top: 90px;
+    padding-bottom: 80px;
 }
-
 .advantages_title {
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 46px;
 }
 .advantages_items {
     display: flex;
@@ -1591,8 +1593,16 @@ form .line input.wpcf7-not-valid::placeholder{
 }
 
 
+.steps {
+    padding-top: 80px;
+    padding-bottom: 67px;
+}
+.steps .cont {
+    max-width: 1000px;
+}
 .steps_title {
     text-align: center;
+    margin-bottom: 70px;    
 }
 .steps_items {
     display: flex;
@@ -1644,7 +1654,7 @@ form .line input.wpcf7-not-valid::placeholder{
     font-size: 20px;
     line-height: 29px;
     color: #000000;
-    margin-bottom: 20px;
+    margin-bottom: 13px;
 }
 .steps_item-text {
     font-family: 'Nunito Sans';
@@ -1654,8 +1664,13 @@ form .line input.wpcf7-not-valid::placeholder{
     color: #000000;
 }
 
+.questions {
+    padding-top: 67px;
+    padding-bottom: 40px;
+}
 .questions_title {
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .sertificat {
@@ -1665,6 +1680,49 @@ form .line input.wpcf7-not-valid::placeholder{
 .sertificat_title {
     text-align: center;
     margin-bottom: 53px;
+}
+.sertificat .swiper-button-next, 
+.sertificat .swiper-button-prev {
+    bottom: -64px;
+    top: auto;
+    transform: translateY(0);
+    width: 21px;
+    height: 16px;
+}
+.sertificat .swiper-container {
+    overflow: visible;
+}
+.sertificat .swiper-pagination-bullet + .swiper-pagination-bullet {
+    margin-left: 8px !important;
+}
+.sertificat .swiper-pagination-bullet {
+    display: block;
+    width: 15px;
+    height: 15px;
+    transition: .2s linear;
+    pointer-events: auto;
+    opacity: 1;
+    border: none;
+    border-radius: 50%;
+    background: #D9D9D9;
+}
+.sertificat .swiper-button-prev {
+    left: calc(50% - 85px);
+}
+.sertificat .swiper-button-next {
+    right: calc(50% - 85px);
+}
+.sertificat .swiper-pagination-bullet:hover, 
+.sertificat .swiper-pagination-bullet.active {
+    background: #4A6FED;
+}
+.sertificat .swiper-pagination-bullet-active {
+    background: #4A6FED;
+}
+.sertificat .swiper-horizontal > .swiper-pagination-bullets, 
+.sertificat .swiper-pagination-bullets.swiper-pagination-horizontal, 
+.sertificat .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: -62px;
 }
 
 

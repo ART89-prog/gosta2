@@ -27,7 +27,7 @@ $(() => {
     const swiper2 = new Swiper('.sertificat .swiper-container', {
         slidesPerView: 1,
         spaceBetween: 10,
-        loop: true,
+        loop: false,
         speed: 500,
         navigation: {
             nextEl: '.sertificat .swiper-button-next',
@@ -36,6 +36,7 @@ $(() => {
         pagination: {
             el: '.swiper-pagination',
             type: 'bullets',
+            clickable: true
         },
         breakpoints: {
           320: {
@@ -46,7 +47,11 @@ $(() => {
             slidesPerView: 3,
             spaceBetween: 20
           },
-          640: {
+          767: {
+            slidesPerView: 3,
+            spaceBetween: 20
+          },
+          1023: {
             slidesPerView: 4,
             spaceBetween: 20
           }
