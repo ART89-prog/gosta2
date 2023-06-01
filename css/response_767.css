@@ -78,6 +78,74 @@
         font-size: 20px;
     }
    
+    .about {
+        margin-top: 40px;
+        padding-bottom: 40px;
+    }
+    .sertificat {
+        padding-top: 40px;
+        margin-bottom: 70px;
+    }
+    .advantages {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .steps {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .questions {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .questions .accordion {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .about {
+        margin-top: 40px;
+        padding-bottom: 40px;
+    }
+    .sertificat {
+        padding-top: 40px;
+        margin-bottom: 70px;
+    }
+    .advantages {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .steps {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .questions {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .questions .accordion {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .about_title,
+    .sertificat_title,
+    .advantages_title,
+    .steps_title,
+    .questions_title {
+        margin-bottom: 25px;
+    }
+
+    .advantages_items {
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    .advantages_items > * {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    .advantages_item + .advantages_item {
+        margin-top: 10px;
+    }
 
 
 

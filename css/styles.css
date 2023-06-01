@@ -1620,7 +1620,7 @@ form .line input.wpcf7-not-valid::placeholder{
     background: #F3F8FE;
     border: 0.5px solid #D9D9D9;
     border-radius: 10px;
-    padding: 24px 42px 50px 22px;
+    padding: 24px 32px 50px 22px;
     min-height: 200px;
     margin-bottom: 72px;
     display: flex;
@@ -1690,7 +1690,16 @@ form .line input.wpcf7-not-valid::placeholder{
     height: 16px;
 }
 .sertificat .swiper-container {
-    overflow: visible;
+    overflow: visible !important;
+}
+.sertificat .swiper-slide {
+    visibility: hidden;
+    opacity: 0;
+}
+.sertificat .swiper-slide.visible {
+    visibility: visible;
+    pointer-events: auto;
+    opacity: 1;
 }
 .sertificat .swiper-pagination-bullet + .swiper-pagination-bullet {
     margin-left: 8px !important;
@@ -1707,10 +1716,10 @@ form .line input.wpcf7-not-valid::placeholder{
     background: #D9D9D9;
 }
 .sertificat .swiper-button-prev {
-    left: calc(50% - 85px);
+    left: calc(50% - 120px);
 }
 .sertificat .swiper-button-next {
-    right: calc(50% - 85px);
+    right: calc(50% - 120px);
 }
 .sertificat .swiper-pagination-bullet:hover, 
 .sertificat .swiper-pagination-bullet.active {

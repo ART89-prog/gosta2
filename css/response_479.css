@@ -261,6 +261,54 @@
         font-size: 14px;
     }
 
+    .about_title {
+        font-size: 25px;
+        line-height: 37px;
+        margin-bottom: 22px;
+    }
+    .about {
+        margin-top: 65px;
+        padding-bottom: 40px;
+    }
+    .about_text {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .about_text p + p {
+        margin-top: 18px;
+    }
+    .about_items {
+        margin-top: 97px;
+        padding: 33px 27px;
+    }
+    .about_item-right {
+        width: 94px;
+    }
+    .about_title, 
+    .sertificat_title, 
+    .advantages_title, 
+    .steps_title, 
+    .questions_title {
+        font-size: 25px;
+        line-height: 37px;
+        text-align: start;
+    }
+    .advantages_items > * {
+        padding: 13px 14px 22px 17px;
+    }
+    .advantages_item-info {
+        margin-top: 14px;
+    }
+    .advantages {
+        padding-bottom: 9px;
+    }
+    .steps_item-info {
+        margin-top: 13px;
+        margin-left: 21px;
+    }
+    .steps {
+        padding-bottom: 27px;
+    }
 
    
 }

@@ -24,39 +24,69 @@ $(() => {
 
 
 
-    const swiper2 = new Swiper('.sertificat .swiper-container', {
-        slidesPerView: 1,
-        spaceBetween: 10,
-        loop: false,
+
+
+      const sertificatSliders = [],
+      sertificat = document.querySelectorAll('.sertificat .swiper-container')
+  
+      sertificat.forEach(function (el, i) {
+      el.classList.add('sertificat_s' + i)
+  
+      let options = {
+        loop: true,
         speed: 500,
+        watchSlidesProgress: true,
+        slideActiveClass: 'active',
+        slideVisibleClass: 'visible',
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'bullets',
+          clickable: true,
+        },
         navigation: {
             nextEl: '.sertificat .swiper-button-next',
             prevEl: '.sertificat .swiper-button-prev',
         },
-        pagination: {
-            el: '.swiper-pagination',
-            type: 'bullets',
-            clickable: true
+        preloadImages: false,
+        lazy: {
+          enabled: true,
+          checkInView: true,
+          loadOnTransitionStart: true,
+          loadPrevNext: true
         },
         breakpoints: {
-          320: {
-            slidesPerView: 2,
-            spaceBetween: 20
+          0: {
+            spaceBetween: 0,
+            slidesPerView: 1
           },
           480: {
-            slidesPerView: 3,
-            spaceBetween: 20
+            spaceBetween: 20,
+            slidesPerView: 2
           },
-          767: {
-            slidesPerView: 3,
-            spaceBetween: 20
+          768: {
+            spaceBetween: 20,
+            slidesPerView: 3
           },
-          1023: {
-            slidesPerView: 4,
-            spaceBetween: 20
+          1280: {
+            spaceBetween: 20,
+            slidesPerView: 4
+          }
+        },
+        on: {
+          init: swiper => {
+            setTimeout(() => setHeight($(swiper.$el).find('.swiper-slide')))
+          },
+          resize: swiper => {
+            setTimeout(() => {
+              $(swiper.$el).find('.swiper-slide').height('auto')
+              setHeight($(swiper.$el).find('.swiper-slide'))
+            })
           }
         }
-      })
+      }
+  
+      sertificatSliders.push(new Swiper('.sertificat_s' + i, options))
+    })
 
 
 
