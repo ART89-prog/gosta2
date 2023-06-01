@@ -33,7 +33,7 @@ $(() => {
       el.classList.add('sertificat_s' + i)
   
       let options = {
-        loop: true,
+        loop: false,
         speed: 500,
         watchSlidesProgress: true,
         slideActiveClass: 'active',
