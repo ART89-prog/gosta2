@@ -21,6 +21,40 @@ $(() => {
             }
         }
     })
+
+
+
+    const swiper2 = new Swiper('.sertificat .swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        loop: true,
+        speed: 500,
+        navigation: {
+            nextEl: '.sertificat .swiper-button-next',
+            prevEl: '.sertificat .swiper-button-prev',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
+        breakpoints: {
+          320: {
+            slidesPerView: 2,
+            spaceBetween: 20
+          },
+          480: {
+            slidesPerView: 3,
+            spaceBetween: 20
+          },
+          640: {
+            slidesPerView: 4,
+            spaceBetween: 20
+          }
+        }
+      })
+
+
+
     
     $('body').on('click', '.modal_link', function(e) {
         e.preventDefault()

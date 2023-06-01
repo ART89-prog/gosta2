@@ -1454,3 +1454,220 @@ form .line input.wpcf7-not-valid::placeholder{
 .wpcf7 form.sent .wpcf7-response-output{
     display: none !important;
 }
+
+
+
+.about {
+    margin-top: 134px;
+    padding-bottom: 80px;
+}
+.about_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.about_info {
+    width: calc(100% - 610px);
+    margin-right: 64px;
+}
+.about_title {
+    font-family: var(--font_family3);
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;    
+    color: #1D1B24;
+    margin-bottom: 51px;
+}
+.about_text {
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #1D1B24;
+}
+.about_text p + p {
+    margin-top: 24px;
+}
+.about_items {
+    width: 546px;
+    background: #F3F8FE;
+    border: 0.5px solid #D9D9D9;
+    border-radius: 10px;
+    padding: 48px 20px 55px 102px;
+    margin-top: 13px;
+}
+.about_item {
+    display: flex;
+    justify-content: space-between;
+}
+.about_item + .about_item {
+    margin-top: 31px;
+}
+.about_item-left {
+    width: 210px;
+}
+.about_item-title {
+    font-family: 'Nunito Sans';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+.about_item-text {
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+.about_item-right {
+    width: calc(100% - 278px);
+    margin-top: -9px;
+}
+.about_item-col {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 49px;
+    color: #1D1B24;
+}
+.about_item-name {
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #474747;
+}
+
+
+.advantages {
+}
+
+.advantages_title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.advantages_items {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -20px;
+    margin-bottom: -20px;
+}
+.advantages_items > * {
+    width: calc(100%/3 - 20px);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    background: #F3F8FE;
+    border: 0.5px solid #D9D9D9;
+    border-radius: 10px;
+    padding: 14px 37px 29px 16px;
+    min-height: 200px;
+}
+.advantages_item-icon {
+    width: 90px;
+    height: 90px;
+}
+.advantages_item-info {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 23px;
+}
+.advantages_item-title {
+    font-family: 'Circe';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+.advantages_item-text {
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+
+.steps_title {
+    text-align: center;
+}
+.steps_items {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -160px;
+}
+.steps_items-box {
+    width: calc(100%/2 - 160px);
+    margin-left: 160px;
+}
+.steps_items-box:nth-child(2) {
+    margin-top: 136px;
+}
+.steps_item {   
+    background: #F3F8FE;
+    border: 0.5px solid #D9D9D9;
+    border-radius: 10px;
+    padding: 24px 42px 50px 22px;
+    min-height: 200px;
+    margin-bottom: 72px;
+    display: flex;
+}
+.steps_item:last-child {
+    margin-bottom: 0;
+}
+.steps_items-box:nth-child(1) {
+    position: relative;
+}
+.steps_items-box:nth-child(1)::before {
+    position: absolute;
+    content: "";
+    width: 160px;
+    height: 681px;
+    top: 100px;
+    right: -160px;
+    background: url(../images/line.png);
+}
+.steps_item-icon {
+    width: 90px;
+    height: 90px;
+}
+.steps_item-info {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.steps_item-title {
+    font-family: 'Circe';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.steps_item-text {
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.questions_title {
+    text-align: center;
+}
+
+.sertificat {
+    padding-top: 88px;
+    margin-bottom: 80px;
+}
+.sertificat_title {
+    text-align: center;
+    margin-bottom: 53px;
+}
+
+
+
+
+
