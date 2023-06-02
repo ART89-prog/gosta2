@@ -1689,10 +1689,7 @@ form .line input.wpcf7-not-valid::placeholder{
     width: 21px;
     height: 16px;
 }
-/* .sertificat .swiper-container {
-    overflow: hidden;
-} */
-.sertificat .swiper-container {
+.sertificat .swiper {
     overflow: visible !important;
 }
 .sertificat .swiper-slide {

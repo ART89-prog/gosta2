@@ -26,14 +26,14 @@ $(() => {
 
 
 
-      const sertificatSliders = [],
-      sertificat = document.querySelectorAll('.sertificat .swiper-container')
+    const sertificatSliders = [],
+    sertificat = document.querySelectorAll('.sertificat .swiper')
   
-      sertificat.forEach(function (el, i) {
+    sertificat.forEach(function (el, i) {
       el.classList.add('sertificat_s' + i)
   
       let options = {
-        loop: false,
+        loop: true,
         speed: 500,
         watchSlidesProgress: true,
         slideActiveClass: 'active',
@@ -44,8 +44,8 @@ $(() => {
           clickable: true,
         },
         navigation: {
-            nextEl: '.sertificat .swiper-button-next',
-            prevEl: '.sertificat .swiper-button-prev',
+          nextEl: '.sertificat .swiper-button-next',
+          prevEl: '.sertificat .swiper-button-prev'
         },
         preloadImages: false,
         lazy: {
@@ -74,12 +74,12 @@ $(() => {
         },
         on: {
           init: swiper => {
-            setTimeout(() => setHeight($(swiper.$el).find('.swiper-slide')))
+            setTimeout(() => setHeight($(swiper.$el).find('.sertificat .swiper-slide')))
           },
           resize: swiper => {
             setTimeout(() => {
-              $(swiper.$el).find('.swiper-slide').height('auto')
-              setHeight($(swiper.$el).find('.swiper-slide'))
+              $(swiper.$el).find('.sertificat .swiper-slide').height('auto')
+              setHeight($(swiper.$el).find('.sertificat .swiper-slide'))
             })
           }
         }
@@ -87,7 +87,6 @@ $(() => {
   
       sertificatSliders.push(new Swiper('.sertificat_s' + i, options))
     })
-
 
 
     
