@@ -341,6 +341,7 @@ header .cont {
 }
 .header_contact {
     text-align: end;
+    margin-left: 100px;
 }
 .header_contact a {
     display: block;
@@ -361,13 +362,13 @@ header .cont {
     color: #161616;
 }
 .header_logo {
-    margin-right: 20px;
+    margin-right: auto;
 }
 
 header .mob_menu_btn {
     display: none;
-    width: 45px;
-    height: 45px;
+    width: 39px;
+    height: 32px;
     margin-right: 0px;
     margin-left: 30px;
     justify-content: center;
@@ -377,7 +378,7 @@ header .mob_menu_btn {
     z-index: 8;
 }
 header .mob_menu_btn img {
-    width: 29px;
+    width: 100%;
 }
 header .close_btn {
     color: var(--text_color); 
@@ -389,23 +390,23 @@ header .close_btn {
     flex-wrap: wrap;
     margin-right: 0px;
     margin-left: 30px;
-    width: 45px;
-    height: 45px;
+    width: 39px;
+    height: 32px;
     z-index: 500;
 }
 header .close_btn img {
-    width: 29px;
+    width: 100%;
 }
 header .menu {
     display: flex;
     align-items: center;
 }
 header .menu .item a {
-    font-family: 'Montserrat';
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    color: var(--text_color); 
+    font-family: 'Circe';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
     position: relative;
     transition: color .2s linear;
     text-decoration: none;
@@ -414,11 +415,11 @@ header .menu .item a {
     display: block;
     text-decoration: none;
     cursor: pointer;
-    margin-right: 32px;
+    margin-right: 40px;
     white-space: nowrap;
 }
 header .menu .item a:hover {
-    color: #FCC344;
+    color: var(--bg);
 }
 header .menu .item:last-child a {
     margin-right: 0;
@@ -1635,6 +1636,7 @@ form .line input.wpcf7-not-valid::placeholder{
     flex-direction: column;
     justify-content: space-between;
     margin-top: 23px;
+    margin-bottom: 20px;
 }
 .advantages_item-title {
     font-family: 'Circe';

@@ -186,9 +186,13 @@
     header .menu.show {
         transform: translateX(100%);
     }
+    header .cont {
+        align-items: center;
+    }
     .menu_open header .close_btn {
         display: flex;
         z-index: 120;
+        flex-shrink: 0;
     }
     header .menu .item {
         width: 100%;
@@ -197,6 +201,7 @@
     header .menu .item + .item {
         margin-left: 0;
     }
+
 
 
 
