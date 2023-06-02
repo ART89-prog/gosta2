@@ -1689,7 +1689,6 @@ form .line input.wpcf7-not-valid::placeholder{
     width: 21px;
     height: 16px;
 }
-<<<<<<< Updated upstream
 /* .sertificat .swiper-container {
     overflow: hidden;
 } */
@@ -1704,10 +1703,6 @@ form .line input.wpcf7-not-valid::placeholder{
 .sertificat .swiper-slide.visible {
     visibility: visible;
     opacity: 1;
-=======
-.sertificat .swiper-container {
-    overflow: visible;
->>>>>>> Stashed changes
 }
 .sertificat .swiper-pagination-bullet + .swiper-pagination-bullet {
     margin-left: 8px !important;
@@ -1724,17 +1719,10 @@ form .line input.wpcf7-not-valid::placeholder{
     background: #D9D9D9;
 }
 .sertificat .swiper-button-prev {
-<<<<<<< Updated upstream
     left: calc(50% - 120px);
 }
 .sertificat .swiper-button-next {
     right: calc(50% - 120px);
-=======
-    left: calc(50% - 85px);
-}
-.sertificat .swiper-button-next {
-    right: calc(50% - 85px);
->>>>>>> Stashed changes
 }
 .sertificat .swiper-pagination-bullet:hover, 
 .sertificat .swiper-pagination-bullet.active {
