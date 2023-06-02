@@ -402,11 +402,11 @@ header .menu {
     align-items: center;
 }
 header .menu .item a {
-    font-family: 'Circe';
+    font-family: var(--font_family3);
     font-weight: 400;
-    font-size: 16px;
+    font-size: var(--font_size);
     line-height: 24px;
-    color: #000000;
+    color: var(--text_color);
     position: relative;
     transition: color .2s linear;
     text-decoration: none;
@@ -1539,7 +1539,7 @@ form .line input.wpcf7-not-valid::placeholder{
     margin-bottom: 51px;
 }
 .about_text {
-    font-family: 'Nunito Sans';
+    font-family: var(--font_family1);
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
@@ -1568,18 +1568,18 @@ form .line input.wpcf7-not-valid::placeholder{
     width: 210px;
 }
 .about_item-title {
-    font-family: 'Nunito Sans';
+    font-family: var(--font_family1);
     font-weight: 600;
     font-size: 20px;
     line-height: 27px;
-    color: #000000;
+    color: var(--text_color);
 }
 .about_item-text {
-    font-family: 'Nunito Sans';
+    font-family: var(--font_family1);
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
-    color: #000000;
+    color: var(--text_color);
 }
 .about_item-right {
     width: calc(100% - 278px);
@@ -1593,7 +1593,7 @@ form .line input.wpcf7-not-valid::placeholder{
     color: #1D1B24;
 }
 .about_item-name {
-    font-family: 'Nunito Sans';
+    font-family: var(--font_family1);
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
@@ -1639,19 +1639,19 @@ form .line input.wpcf7-not-valid::placeholder{
     margin-bottom: 20px;
 }
 .advantages_item-title {
-    font-family: 'Circe';
+    font-family: var(--font_family3);
     font-weight: 700;
     font-size: 20px;
     line-height: 29px;
-    color: #000000;
+    color: var(--text_color);
     margin-bottom: 12px;
 }
 .advantages_item-text {
-    font-family: 'Nunito Sans';
+    font-family: var(--font_family1);
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
-    color: #000000;
+    color: var(--text_color);
 }
 
 
@@ -1711,19 +1711,19 @@ form .line input.wpcf7-not-valid::placeholder{
     margin-left: 25px;
 }
 .steps_item-title {
-    font-family: 'Circe';
+    font-family: var(--font_family3);
     font-weight: 700;
     font-size: 20px;
     line-height: 29px;
-    color: #000000;
+    color: var(--text_color);
     margin-bottom: 13px;
 }
 .steps_item-text {
-    font-family: 'Nunito Sans';
+    font-family: var(--font_family1);
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
-    color: #000000;
+    color: var(--text_color);
 }
 
 .questions {
