@@ -24,6 +24,7 @@ $(() => {
 
 
 
+<<<<<<< Updated upstream
 
 
       const sertificatSliders = [],
@@ -33,6 +34,11 @@ $(() => {
       el.classList.add('sertificat_s' + i)
   
       let options = {
+=======
+    const swiper2 = new Swiper('.sertificat .swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+>>>>>>> Stashed changes
         loop: false,
         speed: 500,
         watchSlidesProgress: true,
@@ -47,12 +53,19 @@ $(() => {
             nextEl: '.sertificat .swiper-button-next',
             prevEl: '.sertificat .swiper-button-prev',
         },
+<<<<<<< Updated upstream
         preloadImages: false,
         lazy: {
           enabled: true,
           checkInView: true,
           loadOnTransitionStart: true,
           loadPrevNext: true
+=======
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+            clickable: true
+>>>>>>> Stashed changes
         },
         breakpoints: {
           0: {
@@ -63,6 +76,7 @@ $(() => {
             spaceBetween: 20,
             slidesPerView: 2
           },
+<<<<<<< Updated upstream
           768: {
             spaceBetween: 20,
             slidesPerView: 3
@@ -81,6 +95,15 @@ $(() => {
               $(swiper.$el).find('.swiper-slide').height('auto')
               setHeight($(swiper.$el).find('.swiper-slide'))
             })
+=======
+          767: {
+            slidesPerView: 3,
+            spaceBetween: 20
+          },
+          1023: {
+            slidesPerView: 4,
+            spaceBetween: 20
+>>>>>>> Stashed changes
           }
         }
       }
