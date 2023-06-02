@@ -1754,7 +1754,7 @@ form .line input.wpcf7-not-valid::placeholder{
 .sertificat .swiper {
     overflow: visible !important;
 }
-.sertificat .swiper-slide {
+.sertificat .swiper-slide {    
     visibility: hidden;
     opacity: 0;
     transition: opacity .2s linear, visibility .2s linear;
@@ -1762,9 +1762,13 @@ form .line input.wpcf7-not-valid::placeholder{
 .sertificat .swiper-slide.visible {
     visibility: visible;
     opacity: 1;
+    transition: box-shadow .4s;
 }
 .sertificat .swiper-pagination-bullet + .swiper-pagination-bullet {
     margin-left: 8px !important;
+}
+.sertificat .swiper-slide:hover {
+    box-shadow: 0px 4px 15px rgba(74, 111, 237, 0.25);
 }
 .sertificat .swiper-pagination-bullet {
     display: block;
